@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9e4f2eb3f21504d9c726f66cfce882, type: 3}
+  m_Name: SoundManagerSO
+  m_EditorClassIdentifier: 
+  musicEnabled: 1
+  sfxEnabled: 1
+  musicVolume: 0.04
+  sfxVolume: 1
+  <ClearRowSound>k__BackingField: {fileID: 8300000, guid: 53513a788f4254b4bb43a3ddf4d2394b, type: 3}
+  <MoveSound>k__BackingField: {fileID: 8300000, guid: 7247e5c9f428ba349885f7ea1b2016c8, type: 3}
+  <MoveErrorSound>k__BackingField: {fileID: 8300000, guid: bfe76606fee4dc948a8f770efd141e1d, type: 3}
+  <RotateSound>k__BackingField: {fileID: 8300000, guid: fb1924809b950534f9b53017b0875153, type: 3}
+  <DropSound>k__BackingField: {fileID: 8300000, guid: b0f183293e95a6f4ebc249a7ff603e07, type: 3}
+  <LandSound>k__BackingField: {fileID: 8300000, guid: b3e5f6da71897ed42923e3fd679505e8, type: 3}
+  <HoldSound>k__BackingField: {fileID: 8300000, guid: 2e26aee4acc2fd144b8996c40008c8de, type: 3}
+  <GameOverSound>k__BackingField: {fileID: 8300000, guid: 85db51428cfc9ec4fbf64c59ac72877f, type: 3}
+  <VocalSounds>k__BackingField:
+  - {fileID: 8300000, guid: 81b30dc4613cd424fb15b4ff6f0c42de, type: 3}
+  - {fileID: 8300000, guid: 0b86a072bd2fdc4458226464008ef9e6, type: 3}
+  - {fileID: 8300000, guid: 96ce6503a0964e543bebb2946f843138, type: 3}
+  - {fileID: 8300000, guid: 3d680c990d1f2ba4db29bdbf7b7e3b3f, type: 3}
+  - {fileID: 8300000, guid: 711bdb56db6b6bd4494fe8090e2018f4, type: 3}
+  - {fileID: 8300000, guid: ec3bd0966878d4089ad1fcc798bc3358, type: 3}
+  - {fileID: 8300000, guid: 8b9eee15a25ac4457bc8de1db8deed46, type: 3}
+  - {fileID: 8300000, guid: e753dc3dea92f4b1c81255878103653f, type: 3}
+  - {fileID: 8300000, guid: 3ceac021a4ee34f8795b93fed21c2fc0, type: 3}
+  <GameOverVocalSound>k__BackingField: {fileID: 8300000, guid: dde698f7e18ad439d93644afcb0de99b, type: 3}
+  <LevelUpVocalSound>k__BackingField: {fileID: 8300000, guid: 2c74626c1fb694ae6babfb9e4b3cf48e, type: 3}
+  musicSource: {fileID: 0}
+  musicClips:
+  - {fileID: 8300000, guid: 935b5dfe68f579142b8c9ac8cb208f8b, type: 3}
+  - {fileID: 8300000, guid: fe81df2a5950ff84eb7b92306208ca73, type: 3}
+  - {fileID: 8300000, guid: 1ef1c7bf9959d75429960371843860a2, type: 3}
